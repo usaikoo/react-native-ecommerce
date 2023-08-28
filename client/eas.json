@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 4.1.2",
+     "appVersionSource" : "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement" : true
+    }
+
+   
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "usaiko.dev@icloud.com",
+        "ascAppId": "6463051990",
+        "appleTeamId": "4H47D8QLU6"
+      }
+    }
+  }
+}

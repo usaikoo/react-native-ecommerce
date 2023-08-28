@@ -15,7 +15,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.usaiko.ecommerce",
+      "infoPlist": {
+        "NSCameraUsageDescription": "To take photos for product listings",
+        "NSLocationWhenInUseUsageDescription": "To show nearby products"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f1c8ae1c-fdf2-4316-a99f-3bfb19dcf35f"
+      }
     }
   }
 }
